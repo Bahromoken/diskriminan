@@ -1,7 +1,14 @@
-# Data types. Final task 1.
+# Demo task.
 
-Write a Python program to print all unique values of all dictionaries in a list.
-Examples:
+Write python program to solve [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation). Result should be sorted by ascential order.
+
+__Examples__:
+```python
+
+>>> solution(1, 6, 5)
+(-5, -1)
+>>> solution(1, 4, 4)
+(-2,)
+>>> solution(1, 6, 45)
+None
 ```
-Input: [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
-Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
