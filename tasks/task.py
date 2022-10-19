@@ -5,4 +5,4 @@ def solution(a, b, c) -> Optional[Tuple[int, int]]:
     """
     Add your code here or call it from here   
     """
-    pass
+    return tuple()
