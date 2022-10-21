@@ -14,5 +14,5 @@ __Examples__:
 >>> solution(a=1, b=4, c=4)
 (-2,)
 >>> solution(a=1, b=6, c=45)
-None
+()
 ```
