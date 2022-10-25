@@ -1,4 +1,5 @@
 from typing import Tuple, Optional
+from math import sqrt
 
 
 def solution(a, b, c) -> Optional[Tuple[float, float]]:
