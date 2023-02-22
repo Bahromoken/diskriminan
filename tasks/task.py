@@ -3,8 +3,12 @@ from math import sqrt
 
 
 def solution(a, b, c) -> Union[Tuple[float, float], Tuple[float], None]:
-    # Add your code here or call it from here  
-    result = tuple()
- 
+    diskriminant = (b * b) - (4 * a * c)
+    if diskriminant > 0:
+        result = (-b - sqrt(diskriminant)) / 2 * a, (-b + sqrt(diskriminant)) / 2 * a
+    if diskriminant == 0:
+        result = (-b) / 2 * a
 
-    return result 
+    result = tuple()
+
+    return result
